@@ -1,0 +1,120 @@
+.userCard {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+    background-size: cover;
+    min-height: 150px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  .userCard p {
+    color: #626642;
+  }
+  
+  * {
+    color: white;
+  }
+  
+  .userCard h1 {
+    color: #6366f1;
+  }
+  
+  .info {
+    display: flex;
+    background-color: black;
+    max-height: auto;
+    min-height: 100vh;
+    padding-left: 28px;
+  }
+  
+  .filters {
+    color: white;
+  }
+  
+  .searchBarMini {
+    display: none;
+  }
+  
+  .retry-desktop-btn {
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 10px;
+    padding: 8px 16px;
+    color: white;
+    background-color: #6366f1;
+    border: none;
+    border-radius: 4px;
+    margin-left: 14px;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+  
+  .search-icon {
+    color: #475569;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    align-self: center;
+    cursor: pointer;
+  }
+  
+  .sideBar {
+    max-width: 90vw;
+    min-width: 270px;
+    position: sticky;
+  }
+  
+  .miniSearchBar {
+    display: none;
+  }
+  
+  .information {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex-grow: 1;
+  }
+  
+  .jobs-list {
+    padding: 20px;
+  }
+  
+  .searchBar {
+    background-color: transparent;
+    border: 1px solid gray;
+    padding: 20px;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    width: 300px;
+    outline: none;
+  }
+  
+  @media screen and (max-width: 576px) {
+    .info {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .searchBar {
+      display: none;
+    }
+  
+    .searchBarMini {
+      display: inline;
+      margin-top: 10px;
+    }
+  
+    .miniSearchBar {
+      display: flex;
+      align-items: center;
+    }
+  
+    .SearchBar {
+      display: none;
+    }
+  }
+  
